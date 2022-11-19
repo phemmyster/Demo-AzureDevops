@@ -32,7 +32,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Visual Studio Enterprise(398203e5-596e-4058-95c9-f5ee030e54d4)'
+    azureSubscription: 'Azure Pass - Sponsorship(1e8d98a2-122f-49bb-9247-17331d9b6f53)'
     appType: 'webApp'
-    WebAppName: 'test-app7858'
-    packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip'
+    WebAppName: 'webappasp333'
+    packageForLinux: '$(System.DefaultWorkingDirectory)\WebApp.zip'
