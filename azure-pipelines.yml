@@ -35,4 +35,5 @@ steps:
     azureSubscription: 'Azure Pass - Sponsorship(1e8d98a2-122f-49bb-9247-17331d9b6f53)'
     appType: 'webApp'
     WebAppName: 'webappasp333'
-    packageForLinux: '$(System.DefaultWorkingDirectory)\WebApp.zip'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/WebApp.zip'
+
